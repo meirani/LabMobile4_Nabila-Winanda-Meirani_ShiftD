@@ -10,7 +10,8 @@ Nabila Winanda Meirani - H1D022108
 
 ![Screenshot 2024-09-27 212526](https://github.com/user-attachments/assets/4049eb5c-762b-4b73-a939-cde662b1b302) ![Screenshot 2024-09-27 212549](https://github.com/user-attachments/assets/ded0648a-0694-4c40-beb4-884b8f9f3827)
 
-![image](https://github.com/user-attachments/assets/5c8c2732-8f7c-468b-901e-33777718b548)
+![image](https://github.com/user-attachments/assets/783b3d8c-96d1-4c36-bb3c-cec558b895f5)
+
 
 
 
