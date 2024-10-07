@@ -68,7 +68,7 @@ Halaman login ini akan ditampilkan ketika kita baru saja membuka aplikasi dan ke
 ![Screenshot 2024-10-07 162135](https://github.com/user-attachments/assets/d9d5c24b-1660-43cf-83ab-8a4849ab6254)
 
 
-3. Hasil login<br>
+2. Hasil login<br>
 Jika email dan password yang kita input salah dan tidak terdaftar maka akan memunculkan pesan gagal. Namun jika email dan password yang diinputkan benar maka aplikasi akan langsung menampilkan halaman list produk. Di dalam sistem jika login berhasil dilakukan maka token dan UserID akan disimpan.
 
 ![Screenshot 2024-10-07 162335](https://github.com/user-attachments/assets/8ca1697e-b415-4379-be0d-c8cbb0c3dd80)
