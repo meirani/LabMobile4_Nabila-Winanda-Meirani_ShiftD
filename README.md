@@ -13,12 +13,12 @@ Ketika pertama kali membuka aplikasi maka akan langsung ditampilkan halaman logi
 
 ![Screenshot 2024-10-07 162135](https://github.com/user-attachments/assets/2a918426-3b06-406a-a2e0-7e6b55698bb9)
 
-3. Mengisi form registrasi<br>
+2. Mengisi form registrasi<br>
 form ini memerlukan inputan nama, email, password, dan konfirm password
 
 ![Screenshot 2024-10-07 162222](https://github.com/user-attachments/assets/7a6ed6e9-3d1f-4e31-b334-6840a5ac29fa)
 
-5. Pengiriman registrasi atau pendaftaran user<br>
+3. Pengiriman registrasi atau pendaftaran user<br>
 Setelah mengisi form registrasi, maka klik tombol registrasi dan alert akan muncul jika berhasil maupun gagal.
 
 ![Screenshot 2024-10-07 162311](https://github.com/user-attachments/assets/b4041116-acc2-4d6e-a676-87bc4c23f997)
