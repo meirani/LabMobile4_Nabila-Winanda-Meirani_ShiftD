@@ -149,6 +149,24 @@ class ItemProduk extends StatelessWidget {
 
 Kode di atas merupakan widget stateless ItemProduk yang menerima parameter Produk. Widget ini menampilkan produk dalam bentuk Card yang berisi nama produk dan harga menggunakan ListTile. Ketika pengguna menekan card produknya, widget mengarahkan ke halaman detail produk menggunakan Navigator.push(), sekaligus mengirimkan data produk yang dipilih ke halaman tersebut. Fungsi ini digunakan untuk menampilkan daftar produk dan mengarahkan pengguna ke tampilan detail produk saat item ditekan.
 
+```
+FutureBuilder<List>(
+  future: ProdukBloc.getProduks(),
+  builder: (context, snapshot) {
+    if (snapshot.hasError) print(snapshot.error);
+    return snapshot.hasData
+        ? ListProduk(
+            list: snapshot.data,
+          )
+        : const Center(
+            child: CircularProgressIndicator(),
+          );
+  },
+)
+```
+
+Kode di atas menggunakan FutureBuilder untuk mengambil dan menampilkan daftar produk secara asinkron dalam aplikasi Flutter. FutureBuilder memanggil ProdukBloc.getProduks() untuk mendapatkan data produk. Jika terjadi kesalahan saat mengambil data, kesalahan tersebut akan dicetak. Jika data berhasil diambil, widget ListProduk ditampilkan dengan daftar produk yang didapat. Jika data masih dalam proses pemuatan, indikator pemuatan (CircularProgressIndicator) ditampilkan untuk menunjukkan bahwa aplikasi sedang menunggu data. Dengan cara ini, pengguna mendapatkan umpan balik visual tentang status pengambilan data.
+
 
 ## Menampilkan Detail Produk
 Detail produk adalah halaman yang muncuk ketika card produk di halaman list produk ditekan. Detail produk ini menampilkan kode, nama, dan harga produk. selain itu di halaman detail produk ini terdapat tombol untuk ubah atau edit dan tombol untuk menghapus produk atau delete.
