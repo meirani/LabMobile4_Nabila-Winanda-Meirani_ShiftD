@@ -8,8 +8,7 @@ Nabila Winanda Meirani - H1D022108
 
 
 ## Proses Registrasi 
-1. Menuju halaman registrasi
-<br>
+1. Menuju halaman registrasi<br>
 Ketika pertama kali membuka aplikasi maka akan langsung ditampilkan halaman login, dari halaman login ini kita menekan tombol registrasi untuk masuk ke halaman registrasi dan melakukan registrasi.
 ![Screenshot 2024-10-07 162135](https://github.com/user-attachments/assets/2a918426-3b06-406a-a2e0-7e6b55698bb9)
 
